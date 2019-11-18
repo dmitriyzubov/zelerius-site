@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+
+<!-- ?v1.281 -->
+
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125446599-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-125446599-1');
+    </script>
+
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<title>Zelerius Network</title>
+
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content="Zelerius Network"/>
+    <meta property="og:image" content="https://zelerius.org/img/logo-blue.png"/>
+    <meta property="og:url" content="https://zelerius.org"/>
+    <meta property="og:site_name" content="Zelerius.org"/>
+    <meta property="og:description" content="A fast, easy and anonymous payment system."/>
+    <meta name="twitter:title" content="ZeleriusNetwork" />
+    <meta name="twitter:image" content="https://zelerius.org/img/logo-blue.png" />
+    <meta name="twitter:url" content="https://twitter.com/ZeleriusNetwork" />
+    <meta name="twitter:card" content="https://twitter.com/ZeleriusNetwork" />
+    <!-- Facebook and Twitter integration -->
+
+    <!-- Icon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+    <!-- Icon -->
+
+	<!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css?v1.281" />
+
+	<!-- Owl Carousel -->
+	<link type="text/css" rel="stylesheet" href="css/owl.carousel.css?v1.281" />
+	<link type="text/css" rel="stylesheet" href="css/owl.theme.default.css?v1.281" />
+
+	<!-- Magnific Popup -->
+	<link type="text/css" rel="stylesheet" href="css/magnific-popup.css?v1.281" />
+
+	<!-- Font Awesome Icon -->
+	<link rel="stylesheet" href="css/font-awesome.min.css?v1.281">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css?v1.281" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="css/style.css?v1.281" />
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+    <div class="marquee">
+            <p id="textBidAsk"></p>
+    </div>
+	<!-- Header -->
+	<header id="home">
+		<!-- Background Image -->
+		<div class="bg-img" style="background-image: url(img/geometric-1732847_.jpg)">
+			<div class="overlay"></div>
+		</div>
+		<!-- /Background Image -->
+		<!-- Nav -->
+
+		<nav id="nav" class="navbar nav-transparent">
+
+			<div class="container">
+
+				<div class="navbar-header">
+					<!-- Logo -->
+					<div class="navbar-brand">
+						<a href="index.html">
+							<img class="logo" src="./img/logo-blue.svg" alt="logo">
+							<img class="logo-alt" src="./img/logo-white.svg" alt="logo">
+						</a>
+					</div>
+					<!-- /Logo -->
+
+					<!-- Collapse nav button -->
+					<div class="nav-collapse">
+						<span></span>
+					</div>
+					<!-- /Collapse nav button -->
+				</div>
+
+
+				<!--  Main navigation  -->
+				<ul class="main-nav nav navbar-nav navbar-right">
+					<li><a id="menuItem1" href="#home"></a></li>
+                    <li class="has-dropdown"><a id="menuItem2">.</a>
+						<ul class="dropdown">
+							<li><a id="menuItem2sub1" href="#about"></a></li>
+                            <li><a id="menuItem2sub2" href="#portfolio"></a></li>
+                            <li><a id="menuItem2sub3" href="#service"></a></li>
+						</ul>
+					</li>
+					<li><a id="menuItem3" href="#pricing"></a></li>
+					<li><a id="menuItem4" href="#team"></a></li>
+                    <li><a id="menuItem5" href="#blog"></a></li>
+					<li><a id="menuItem6" href="#contact"></a></li>
+                    <li class="has-dropdown"><a id="menuItem7">.</a>
+						<ul class="dropdown">
+							<li><a id="menuItem7sub1" onclick="setLanguage('en')" href=""></a></li>
+                            <li><a id="menuItem7sub2" onclick="setLanguage('es')" href=""></a></li>
+                            <li><a id="menuItem7sub3" onclick="setLanguage('tr')" href=""></a></li>
+                            <li><a id="menuItem7sub4" onclick="setLanguage('ru')" href=""></a></li>
+                            <li><a id="menuItem7sub5" onclick="setLanguage('kor')" href=""></a></li>
+                            <li><a id="menuItem7sub13" onclick="setLanguage('nl')" href=""></a></li>
+                            <li><a id="menuItem7sub7" onclick="setLanguage('slo')" href=""></a></li>
+                            <li><a id="menuItem7sub9" onclick="setLanguage('pt')" href=""></a></li>
+                            <li><a id="menuItem7sub10" onclick="setLanguage('cn')" href=""></a></li>
+                            <li><a id="menuItem7sub11" onclick="setLanguage('jpn')" href=""></a></li>
+                            <li><a id="menuItem7sub12" onclick="setLanguage('fr')" href=""></a></li>
+                            <li><a id="menuItem7sub6" onclick="setLanguage('swe')" href=""></a></li>
+                            <li><a id="menuItem7sub8" onclick="setLanguage('bas')" href=""></a></li>
+						</ul>
+					</li>
+
+				</ul>
+				<!-- /Main navigation -->
+
+			</div>
+
+		</nav>
+		<!-- /Nav -->
+
+		<!-- home wrapper -->
+		<div class="home-wrapper">
+			<div class="container">
+				<div class="row">
+					<!-- home content -->
+					<div class="col-md-9">
+						<div class="row home-content">
+                            <div class= "col-md-9">
+                                <div style="display: inline-block">
+				                    <h1 id="title" class="white-text line-1 anim-typewriter"></h1>
+                                </div>
+                            </div>
+                            <div class= "col-md-9" >
+                                <div style="display: inline-block">
+							         <h5 id="subtitle" class="white-text line-2 anim-typewriter-2"></h5>
+                                </div>
+                            </div>
+                            <div class= "col-md-9">
+                                <a href="#blog"><button id="titleButton" class="main-btn show-button"></button></a>
+                            </div>
+						</div>
+					</div>
+					<!-- /home content -->
+				</div>
+			</div>
+		</div>
+		<!-- /home wrapper -->
+
+	</header>
+	<!-- /Header -->
+
+	<!-- About -->
+	<div id="about" class="section md-padding owl-carousel owl-theme">
+
+        <!-- Section header -->
+				<div class="section-header text-center">
+					<h2 id="text1" class="title"></h2>
+				</div>
+				<!-- /Section header -->
+
+		<!-- Container -->
+		<div class="container custom-margin-bottom">
+
+			<!-- Row -->
+			<div class="row equal-cols">
+
+				<!-- about -->
+				<div class="col-md-4">
+					<div class="about">
+						<i class="fas fa-money-bill-wave-alt"></i>
+						<h3 id="text2"></h3>
+						<p id="text3"></p>
+					</div>
+				</div>
+				<!-- /about -->
+
+				<!-- about -->
+				<div class="col-md-4">
+					<div class="about">
+						<i class="fas fa-th"></i>
+						<h3 id="text4"></h3>
+						<p id="text5"></p>
+					</div>
+				</div>
+				<!-- /about -->
+
+				<!-- about -->
+				<div class="col-md-4">
+					<div class="about">
+						<i class="fas fa-globe"></i>
+						<h3 id="text6"></h3>
+						<p id="text7"></p>
+					</div>
+				</div>
+				<!-- /about -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+
+
+	</div>
+	<!-- /About -->
+
+
+	<!-- Portfolio -->
+	<div id="portfolio" class="section md-padding bg-grey">
+
+        <!-- Section header -->
+				<div class="section-header text-center">
+					<h2 id="text8" class="title"></h2>
+                    <p id="text9" class="custom-margin"></p>
+				</div>
+				<!-- /Section header -->
+
+        <!-- Numbers -->
+        <div class="details">
+            <div class="overlay"></div>
+                <!-- Container -->
+		<div class="container ">
+
+			<!-- Row -->
+			<div class="row equal-cols" style="display: inline">
+
+				<!-- service -->
+				<div class="col-md-3 token equal-cols">
+					<div class="pricing">
+						<div class="price-head ">
+							<span id="text11" class="price-title"></span>
+							<div class="price">
+								<h4 id="csupply">?<span class="duration" >ZLS</span></h4>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /service -->
+
+				<!-- service -->
+				<div class="col-md-3 token">
+					<div class="pricing">
+						<div class="price-head">
+							<span id="text13" class="price-title"></span>
+							<div class="price">
+								<h3 >30<span class="duration" id="text12"></span></h3>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /service -->
+                <!-- service -->
+				<div class="col-md-3 token">
+					<div class="pricing">
+						<div class="price-head">
+							<span id="text55" class="price-title"></span>
+							<div class="price">
+								<h3 >0%<span class="duration" id="text56"></span></h3>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /service -->
+
+				<!-- service -->
+				<div class="col-md-3 token" >
+					<div class="pricing" >
+						<div class="price-head">
+							<span id="text15" class="price-title"></span>
+							<div class="price">
+								<h4 id="lastreward">?</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /service -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+            </div>
+	<!-- /Numbers -->
+
+        <div class="vertical-center network-padding-top">
+        <!-- Container -->
+
+		<div class="container">
+
+
+			<!-- Row -->
+			<div class="row equal-cols">
+
+				<!-- team -->
+				<div class="col-sm-3 col-xs-6">
+                    <a href="https://zelerius.org/doc/CN_v2.pdf" target="_blank">
+					<div class="team">
+						<div class="team-img">
+							<img class="img-responsive" src="./img/book.svg" alt="">
+							<div class="overlay">
+							</div>
+						</div>
+						<div class="team-content">
+							<h3 id="text18"></h3>
+							<span id="text19"></span>
+						</div>
+					</div>
+                    </a>
+				</div>
+				<!-- /team -->
+
+				<!-- team -->
+				<div class="col-sm-3 col-xs-6">
+                    <a href="https://zelerius.org/doc/sendproof_protocol_v1.0.pdf" target="_blank">
+					<div class="team">
+
+						<div class="team-img">
+							<img class="img-responsive" src="./img/guarantee-black.svg" alt="">
+							<div class="overlay">
+							</div>
+						</div>
+						<div class="team-content">
+							<h3 id="text24"></h3>
+							<span id="text25"></span>
+						</div>
+
+					</div>
+                         </a>
+				</div>
+				<!-- /team -->
+
+				<!-- team -->
+				<div class="col-sm-3 col-xs-6">
+					<a href="https://docs.google.com/document/d/1a5kER6NCuZNjXfKZxJNasHcGwmtDWhhcyJog97k6838/edit?usp=sharing" target="_blank">
+                    <div class="team">
+						<div class="team-img">
+							<img class="img-responsive" src="./img/guide.svg" alt="">
+							<div class="overlay">
+							</div>
+						</div>
+						<div class="team-content">
+							<h3 id="text20"></h3>
+							<span id="text21"></span>
+						</div>
+					</div>
+                    </a>
+				</div>
+				<!-- /team -->
+                <!-- team -->
+				<div class="col-sm-3 col-xs-6">
+					<a href="https://github.com/zelerius" target="_blank">
+                    <div class="team">
+						<div class="team-img">
+							<img class="img-responsive" src="./img/github.svg" alt="">
+							<div class="overlay">
+							</div>
+						</div>
+						<div class="team-content">
+							<h3 id="text22"></h3>
+							<span id="text23"></span>
+						</div>
+					</div>
+                    </a>
+				</div>
+				<!-- /team -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+        </div>
+
+
+
+	</div>
+	<!-- /Portfolio -->
+
+	<!-- Service -->
+	<div id="service" class="section md-padding">
+
+        <!-- Section header -->
+				<div class="section-header text-center">
+					<h2 id="text26" class="title"></h2>
+				</div>
+				<!-- /Section header -->
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row equal-cols">
+
+                <!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fab fa-telegram"></i>
+						<h3 id="text41"></h3>
+						<p id="text42"></p>
+					</div>
+				</div>
+				<!-- /service -->
+
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fas fa-fighter-jet"></i>
+						<h3 id="text29"></h3>
+						<p id="text30"></p>
+					</div>
+				</div>
+				<!-- /service -->
+
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fas fa-shoe-prints"></i>
+						<h3 id="text31"></h3>
+						<p id="text32"></p>
+					</div>
+				</div>
+				<!-- /service -->
+
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fas fa-code"></i>
+						<h3 id="text33"></h3>
+						<p id="text34"></p>
+					</div>
+				</div>
+				<!-- /service -->
+
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fas fa-hands-helping"></i>
+						<h3 id="text35"></h3>
+						<p id="text36"></p>
+					</div>
+				</div>
+				<!-- /service -->
+
+				<!-- service -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fa fa-user-secret"></i>
+						<h3 id="text27"></h3>
+						<p id="text28"></p>
+					</div>
+				</div>
+				<!-- /service -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Service -->
+
+	<!-- Pricing -->
+	<div id="pricing" class="section md-padding bg-grey">
+
+        <!-- Section header -->
+				<div class="section-header text-center">
+					<h2 id="text49" class="title"></h2>
+				</div>
+
+		<!-- Container -->
+		<div class="container ">
+                    <!-- Row -->
+                    <div class="row custom-margin">
+                        <div class="col-md-12 col-centered text-center mine">
+							 <img src="./img/mining-148ECF.svg" alt="" >
+                        </div>
+                        <div class="col-lg-12 col-centered text-center custom-margin mine">
+                             <h3 id="text50"></h3>
+				            <span id="text51"></span>
+                            <p id="text52"></p>
+                        </div>
+                    </div>
+                    <!-- Row -->
+                    <!-- Row -->
+                    <div class="row custom-margin">
+                        <div class="col-md-12 col-centered text-center ">
+							 <button id="text53" class="outline-btn" >
+                             </button>
+                        </div>
+                        <div class="col-lg-12 col-centered text-center custom-margin">
+                             <p id="pools"></p>
+                        </div>
+                    </div>
+            <!-- Row -->
+            </div>
+    </div>
+    <!-- /Pricing -->
+
+
+	<!-- Testimonial -->
+	<div id="team" class="section md-padding">
+
+		<!-- Background Image -->
+		<div class="bg-img" style="background-image: url(img/geometric-1732847_.jpg)">
+			<div class="overlay"></div>
+		</div>
+		<!-- /Background Image -->
+
+		<!-- Road Map -->
+	<section id="team" class="background1 section-padding-top">
+        <div class="section-title text-center">
+					<h2 id="text73" class="title white-text"></h2>
+        </div>
+		<div class="container custom-margin-bottom">
+			<div class="row ">
+
+				<div class="col-lg-10 col-lg-offset-2">
+					<ul class="timeline pb80 ">
+						<!-- Item 1 -->
+						<li>
+							<div class="timeline-image scaleReveal"><img alt="Timeline" class="img-circle img-responsive" src="./img/egg-148ECF.svg"></div>
+							<div class="timeline-panel leftReveal">
+								<div class="timeline-heading">
+									<h5 id="text74" class="heading-1 mb15"></h5>
+									<h4 id="text75" class="subheading white-text"></h4>
+								</div>
+								<div class="timeline-body">
+									<p id="text76"></p>
+								</div>
+							</div>
+						</li>
+
+						<!-- Item 2 -->
+						<li class="timeline-inverted">
+							<div class="timeline-image scaleReveal"><img alt="Timeline" class="img-circle img-responsive" src="./img/telegram-148ECF.svg"></div>
+							<div class="timeline-panel rightReveal">
+								<div class="timeline-heading">
+									<h5 id="text77" class="heading-1 mb15"></h5>
+									<h4 id="text78" class="subheading white-text"></h4>
+								</div>
+								<div class="timeline-body">
+									<p id="text79"></p>
+								</div>
+							</div>
+						</li>
+						<!-- Item 3 -->
+						<li>
+							<div class="timeline-image scaleReveal"><img alt="Timeline" class="img-circle img-responsive" src="./img/worldwide-148ECF.svg"></div>
+							<div class="timeline-panel leftReveal">
+								<div class="timeline-heading">
+									<h5 id="text80" class="heading-1 mb15"></h5>
+									<h4 id="text81" class="subheading white-text"></h4>
+								</div>
+								<div class="timeline-body"> <p id="text82"></p>
+
+								</div>
+							</div>
+						</li>
+
+						<!-- Item 4 -->
+						<li class="timeline-inverted">
+							<div  class="timeline-image scaleReveal"><img alt="Timeline" class="img-circle img-responsive" src="./img/wallet-148ECF.svg"></div>
+							<div class="timeline-panel rightReveal">
+								<div class="timeline-heading">
+									<h5 id="text83" class="heading-1 mb15"></h5>
+									<h4 id="text84" class="subheading white-text"></h4>
+								</div>
+								<div class="timeline-body">
+									<p id="text85"></p>
+								</div>
+							</div>
+						</li>
+						 <!-- Item 3 -->
+						<li>
+							<div class="timeline-image scaleReveal"><img alt="Timeline" class="img-circle img-responsive" src="./img/transfer-148ECF.svg"></div>
+							<div class="timeline-panel leftReveal">
+								<div class="timeline-heading">
+									<h5 id="text86" class="heading-1 mb15"></h5>
+									<h4 id="text87" class="subheading white-text"></h4>
+								</div>
+								<div class="timeline-body">
+									<p id="text88"></p>
+								</div>
+							</div>
+						</li>
+
+                        <li class="timeline-inverted">
+							<div  class="timeline-image scaleReveal"><img alt="Timeline" class="img-circle img-responsive" src="./img/network-148ECF.svg"></div>
+							<div class="timeline-panel rightReveal">
+								<div class="timeline-heading">
+									<h5 id="text92" class="heading-1 mb15"></h5>
+									<h4 id="text93" class="subheading white-text"></h4>
+								</div>
+								<div class="timeline-body">
+									<p id="text94">
+                                    </p>
+								</div>
+							</div>
+						</li>
+                        <li class="timeline-inverted">
+							<div  class="timeline-image scaleReveal"><img alt="Timeline" class="img-circle img-responsive" src="./img/payment-method.svg"></div>
+							<div class="timeline-panel rightReveal">
+								<div class="timeline-heading">
+									<h5 id="text95" class="heading-1 mb15"></h5>
+									<h4 id="text96" class="subheading white-text"></h4>
+								</div>
+								<div class="timeline-body">
+									<p id="text97">
+                                    </p>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div><!-- /.column -->
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</section><!-- /.section -->
+<!-- /Road Map -->
+
+
+	</div>
+	<!-- /Testimonial -->
+
+
+
+	<!-- Blog -->
+	<div id="blog" class="section md-padding bg-grey">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 id="text98" class="title"></h2>
+				</div>
+				<!-- /Section header -->
+
+                <div class="container">
+                    <p id="text99" style="text-align: center"></p>
+                    <div class="row">
+                        <div class="col-sm-4 col-centered">
+                           <div class="download">
+                               <a href="https://telegram.me/ZeleriusBot" target="_blank">
+                                    <img class="duration" src="./img/telegram-148ECF.svg" alt="">
+                                    <h3 id="text100" class="download-title"></h3>
+                               </a>
+                           </div>
+                        </div>
+                    </div>
+
+                    <div class="row custom-margin">
+                        <p id="text101" style="text-align: center"></p>
+                        <div class="col-sm-4">
+                           <div class="download">
+                               <a href="https://github.com/zelerius/zelerius-gui/releases" target="_blank">
+                                   <img class="duration" src="./img/windows-download.svg" alt="">
+                                   <h3 id="text102" class="download-title"></h3>
+                               </a>
+                           </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="download">
+                                <a href="https://github.com/zelerius/zelerius-gui/releases" target="_blank">
+                                    <img class="duration" src="./img/mac-download.svg" alt="">
+                                    <h3 id="text103" class="download-title"></h3>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="download">
+                                <a href="https://github.com/zelerius/zelerius-gui/releases" target="_blank">
+                                    <img class="duration" src="./img/linux-download.svg" alt="">
+                                    <h3 id="text104" class="download-title"></h3>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Blog -->
+
+	<!-- Contact -->
+	<div id="contact" class="section md-padding">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section-header -->
+				<div class="section-header text-center">
+					<h2 id="text105" class="title"></h2>
+				</div>
+				<!-- /Section-header -->
+                <div class="text-center anim-text-help container">
+					<p id="text54" style="color: #1174B6"></p>
+				</div>
+
+				<!-- contact -->
+				<div class="col-sm-3">
+					<div class="join">
+                        <a href="https://t.me/zelerius" target="_blank">
+						  <i class="fab fa-telegram"></i>
+						  <h3>Telegram</h3>
+                        </a>
+					</div>
+
+				</div>
+				<!-- /contact -->
+
+				<!-- contact -->
+				<div class="col-sm-3">
+					<div class="join">
+                        <a href="https://discord.gg/fv3jg7d" target="_blank">
+						  <i class="fab fa-discord"></i>
+						  <h3>Discord</h3>
+                        </a>
+					</div>
+				</div>
+				<!-- /contact -->
+
+				<!-- contact -->
+				<div class="col-sm-3">
+					<div class="join">
+                        <a href="https://github.com/zelerius" target="_blank">
+						  <i class="fab fa-github"></i>
+						  <h3>Github</h3>
+                        </a>
+					</div>
+				</div>
+				<!-- /contact -->
+                <!-- contact -->
+				<div class="col-sm-3">
+					<div class="join">
+                    <a href="https://bitcointalk.org/index.php?topic=5028909.0" target="_blank">
+						<i class="fa fa-bullhorn"></i>
+						<h3>BitcoinTalk</h3>
+                    </a>
+					</div>
+				</div>
+				<!-- /contact -->
+
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Contact -->
+
+
+	<!-- Footer -->
+	<footer id="footer" class="sm-padding">
+
+        <!-- Background Image -->
+		<div class="bg-img" style="background-image: url(img/geometric-1732847_.jpg)">
+			<div class="overlay"></div>
+		</div>
+
+        <!-- /Background Image -->
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<div class="col-md-12">
+
+					<!-- footer logo -->
+					<div class="footer-logo">
+						<a href="index.html"><img src="./img/logo-white.svg" alt="logo"></a>
+					</div>
+					<!-- /footer logo -->
+
+					<!-- footer follow -->
+					<ul class="footer-follow">
+						<li><a href="https://twitter.com/ZeleriusNetwork"><i class="fab fa-twitter"></i></a></li>
+						<li><a href="https://medium.com/@zelerius"><i class="fab fa-medium-m"></i></a></li>
+                        <li><a href="https://www.reddit.com/r/Zelerius/"><i class="fab fa-reddit"></i></a></li>
+                        <li><a href="mailto:team@zelerius.org"><i class="far fa-envelope"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UC_0MRVHjTb3Ii8MKsKthXkQ"><i class="fab fa-youtube"></i></a></li>
+					</ul>
+					<!-- /footer follow -->
+
+					<!-- footer copyright -->
+
+                    <div class="text-center" style="font-size: 5px;">Icons made by <a href="https://www.flaticon.com/authors/good-ware" title="Good Ware">Good Ware</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+					<!-- /footer copyright -->
+
+				</div>
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</footer>
+	<!-- /Footer -->
+
+	<!-- Back to top -->
+	<div id="back-to-top"></div>
+	<!-- /Back to top -->
+
+	<!-- Preloader -->
+	<div id="preloader">
+		<div class="preloader">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</div>
+	<!-- /Preloader -->
+
+	<!-- jQuery Plugins -->
+	<script type="text/javascript" src="js/jquery.min.js?v1.281"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js?v1.281"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js?v1.281"></script>
+	<script type="text/javascript" src="js/jquery.magnific-popup.js?v1.281"></script>
+	<script type="text/javascript" src="js/main.js?v1.281"></script>
+
+    <script type="text/javascript" src="js/my_functions.js?v1.281"></script>
+
+    <script type="text/javascript" src="language/language.js?v1.281"></script>
+
+</body>
+
+</html>
