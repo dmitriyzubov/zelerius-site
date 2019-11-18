@@ -1,10 +1,10 @@
-// <!-- ?v1.281 -->
+// <!-- ?v1.28 -->
 
     var language;
     function getLanguage() {
         (localStorage.getItem('language') == null) ? setLanguage('en') : false;
         $.ajax({
-        url:  '/language/' +  localStorage.getItem('language') + '.json?v1.281',
+        url:  '/language/' +  localStorage.getItem('language') + '.json?v1.28',
         dataType: 'json', async: false, dataType: 'json',
         success: function (lang) { language = lang } });
     }
@@ -154,6 +154,43 @@
         $('#text103').text(language.text103);
         $('#text104').text(language.text104);
         $('#text105').text(language.text105);
+
+		$('#text300').text(language.text300);
+		$('#text301').text(language.text301);
+		$('#text302').text(language.text302);
+		$('#text303').text(language.text303);
+		$('#text304').text(language.text304);
+		$('#text305').text(language.text305);
+		$('#text306').text(language.text306);
+		$('#text307').text(language.text307);
+		$('#text308').text(language.text308);
+		$('#text309').text(language.text309);
+		$('#text310').text(language.text310);
+		$('#text311').text(language.text311);
+		$('#text312').text(language.text312);
+		$('#text313').text(language.text313);
+		$('#text314').text(language.text314);
+		$('#text315').text(language.text315);
+		$('#text316').text(language.text316);
+		$('#text317').text(language.text317);
+		$('#text318').text(language.text318);
+		$('#text319').text(language.text319);
+		$('#text320').text(language.text320);
+		$('#text321').text(language.text321);
+		$('#text322').text(language.text322);
+		$('#text323').text(language.text323);
+		$('#text324').text(language.text324);
+		$('#text325').text(language.text325);
+		$('#text326').text(language.text326);
+		$('#text327').text(language.text327);
+		$('#text328').text(language.text328);
+		$('#text329').text(language.text329);
+		$('#text330').text(language.text330);
+		$('#text331').text(language.text331);
+		$('#text332').text(language.text332);
+		$('#text333').text(language.text333);
+		$('#text334').text(language.text334);
+		$('#text335').text(language.text335);
 
         fetchLiveStats();
     });
