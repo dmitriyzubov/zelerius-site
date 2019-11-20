@@ -4,7 +4,7 @@
     function getLanguage() {
         (localStorage.getItem('language') == null) ? setLanguage('en') : false;
         $.ajax({
-        url:  '/language/' +  localStorage.getItem('language') + '.json?v1.28',
+        url:  window.location.href + '/language/' +  localStorage.getItem('language') + '.json?v1.28',
         dataType: 'json', async: false, dataType: 'json',
         success: function (lang) { language = lang } });
     }
