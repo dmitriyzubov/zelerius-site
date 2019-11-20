@@ -101,32 +101,89 @@
   	"text70": "",
   	"text71": "",
   	"text72": "",
-
+    
   	"text73": "Road Map",
+	
   	"text74": "Q4 2017",
-  	"text75": "¡Hola Mundo!",
-  	"text76": "Aquí comenzó todo. Zelerius nació en mayo de 2018 aunque solo era una idea en la mente de unos desarrolladores de software.",
+  	"text75": "Beginning.",
+  	"text76": "Zelerius was born in may 2018, it was only an idea in the minds of developers.",
+	
   	"text77": "Q2 2018",
-  	"text78": "Wallet en Telegram",
-  	"text79": "Se publica la primera versión de la cartera en Telegram. La cartera no era del todo funcional pero sirvió para dar a conocer el proyecto. Era tan solo una versión Beta privada. La moneda todavía no había nacido.",
+  	"text78": "Telegram Wallet",
+  	"text79": "One of the main goals of Zelerius is ease of use. Therefore, it was decided to start developing a private wallet as part of the instant messaging program in Telegram. The wallet was launched in beta to detect possible bugs and receive suggestions for improvement from any user. Project Zelerius has not yet been born, but you will not have to wait for long.",
+	
   	"text80": "Q3 2018",
-  	"text81": "Zelerius se publica para todo el mundo.",
-  	"text82": "El 14 de septiembre de 2018 la red Zelerius fue publicada, siendo accesible para cualquier persona que quisiera utilizarla. El código fuente así como el software de minería necesario fue publicado. Muchos mineros empezaron a realizar su trabajo, poniendo en marcha la red.",
-  	"text83": "Q4 2018",
-  	"text84": "Actualización de la cartera de Telegram",
-  	"text85": "A finales del tercer cuatrimestes, se publica la actualización de la wallet en Telegram. Desde entonces, desde cualquier dispositivo: Teléfono móvil, PC, web, etc es posible realizar envio y recibir monedas Zelerius de manerá instantánea.",
-  	"text86": "Q4 2018",
-  	"text87": "Zelerius ha sido listado en casas de intercambio (Exchanges)",
-  	"text88": "Zelerius ha sido listado en webs de intercambio de cryptomonedas. Ahora mismo puedes minar Zelerius utilizando tu CPU/GPU, pero si lo prefieres, puedes obtener Zelerius fácilmente a través de las web de intercambios (Exchanges). Trabajamos todos los días para listar Zelerius en el mayor número de Exchanges posible. Pensamos que Zelerius debe estar disponible para todo el mundo.",
-  	"text89": "POR ANUNCIARSE",
+  	"text81": "The Zelerius network has been published.",
+  	"text82": "On September 14, 2018 the Zelerius network was published. It has become available to anyone who would like to use it. The source code as well as the necessary mining software have been published on GitHub. Miners around the world have started mining Zelerius by launching a network.",
+	
+  	"text83": "Q3 2018",
+  	"text84": "Telegram Wallet Update",
+  	"text85": "At the end of the third quarter, an updated version of Zelerius wallet was published in Telegram. Now it is easy to use Zelerius, from any mobile phone, PC or tablet you can make payments in Zelerius and receive them instantly in Telegram just open it.",
+	
+  	"text86": "Q3 2018",
+  	"text87": "Social networks.",
+  	"text88": "Placement in social networks and information resources",
+	
+  	"text89": "To Be Announced",
   	"text90": "",
   	"text91": "",
+	
   	"text92": "Q4 2018",
-  	"text93": "Wallet para Escritorio",
-    "text94": "La primera versión de la cartera para PC y Mac fue publicada bajo la licencia GNU, publicando su código fuente en GitHub.",
+  	"text93": "Desktop Wallet.",
+  	"text94": "The first version of the wallet for Windows, Mac and Linux was published under the GNU with open source license.",
+	
     "text95": "Q4 2018",
     "text96": "Hard fork, CN CN-2.",
-    "text97": "El 15 de diciembre de 2018 se realizó la primera gran actualización de la red Zelerius. La intención era mejorar el algoritmo de minería utilizado hasta la fecha, pasando de CryptoNight Variant 1 a CryptoNight Variant 2. Esto ayudó a descentralizar la minería, haciendo más fácil el acceso a pequeños mineros.",
+    "text97": "The first major update of the Zelerius network took place on December 15, 2018. The intention was to improve the mining algorithm used to date by CryptoNight from option 1 to option 2. It helped decentralize mining, making it easier for small miners to access it.",
+	
+	"text300": "Q4 2018",
+	"text301": "Zelerius-Exchanges. First stage.",
+	"text302": "Zelerius was published on several exchange sites, it allowed to start the exchange of Zelerius coins.",
+	
+	"text303": "Q1 2019",
+	"text304": "Site update.",
+	"text305": "The Zelerius Network web site has been translated by our community into 13 different languages.",
+	
+	"text306": "Q1 2019",
+	"text307": "Start a marketing campaign.",
+	"text308": "The first marketing campaign was conducted using Airdrop and Referral links . Users anywhere can recommend Zelerius in exchange for a small conversion into Zelerius coins. It has led to an increase in the number of users to date exponentially.",
+	
+	"text309": "Q2 2019",
+	"text310": "Hard fork, transition to CN-ZLS algorithm.",
+	"text311": "The second major update of the network was released. A personal POW algorithm, called CN-ZLS, with the idea of improving decentralization was created. Zelerius personal algorithm has been incorporated into important mining programs. It made Zelerius known to many new miners and helped to further expand and strengthen the security of the network.",
+	
+	"text312": "Q3 2019",
+	"text313": "Referral program.",
+	"text314": "Referral program, recently opened to further attract new users to the Zelerius network.",
+	
+	"text315": "Q4 2019",
+	"text316": "Zelerius-Exchanges. Second stage.",
+	"text317": "Zelerius begins the second stage of listing on larger exchanges, which will further facilitate the exchange with other cryptocurrencies and attract new investors. In some cases, thanks to the support of the community.",
+	
+	"text318": "Q1 2020",
+	"text319": "New Desktop Wallet.",
+	"text320": "A completely new version of the wallet for Windows, Mac and Linux will be published. It will fix small bugs reported by users and will include numerous improvements that will make using the Zelerius network even easier and even faster. Work is already underway.",
+	
+	"text321": "Q1 2020",
+	"text322": "Airdrop.",
+	"text323": "A new airdrop referral program will be launched to attract new investors. Zelerius is getting better and we want it to keep growing.",
+	
+	"text324": "Q2 2020",
+	"text325": "Own Exchange.",
+	"text326": "Creation of its economic zone and its exchange. Undoubtedly, Zelerius will play the most important role. Work is already underway.",
+	
+	"text327": "Q3 2020",
+	"text328": "Android application.",
+	"text329": "The first version of the Zelerius wallet for Android will be published. Easy and secure application for accepting and making payments in different currencies. Work on the application is already underway.",
+	
+	"text330": "WILL BE ANNOUNCED LATER:",
+	"text331": "Smartcontracts",
+	"text332": "We want Zelerius to be more than just a cryptocurrency, so we'll start developing smart contracts on the Zelerius network while maintaining ease of use. Anyone should be able to use Zelerius easily and quickly. Without special knowledge.",
+	
+	"text333": "WILL BE ANNOUNCED LATER:",
+	"text334": "ZeleriusPay",
+	"text335": "In the long term, we want to build a real network, we want Zelerius to be used for shopping from anywhere. It is certainly a very ambitious goal.",
+	
     "text98": "Empieza",
     "text99": "Se recomienda el uso de la cartera en telegram por ser la opción más rápida y fácil.",
     "text100": "TELEGRAM WALLET",
@@ -135,54 +192,6 @@
     "text103": "MAC OS",
     "text104": "LINUX OS",
     "text105": "Participa",
-
-    "text300": "Q4 2018",
-    "text301": "Zelerius-Exchanges. Primera etapa",
-    "text302": "Zelerius fue publicado en varias webs de intercambio, haciendo posible el intercambio de monedas de Zelerius por otras criptomonedas como Bitcoin.",
-
-    "text303": "Q1 2019",
-    "text304": "Actualización de la web",
-    "text305": "Numerosos usuarios hasta la fecha han traducido la web de Zelerius a 13 idiomas distintos. Se realizó la primera campaña de marketing a través de enlaces de recomendación pensada para la comunidad. Usuarios de cualquier lugar podian recomendar Zelerius a cambio de una pequeña recomensa en monedas de Zelerius. Esto hizo crecer de manera exponencial el número de usuarios hasta fecha. La segunda gran actualización de la red fue lanzada. Con la idea de mejorar la descentralización, se creó un algoritmo de minado propio, llamado CN ZLS.",
-
-    "text306": "Q1 2019",
-    "text307": "Primera campaña de marketing",
-    "text308": "Se realizó la primera campaña de marketing a través de enlaces de recomendación pensada para la comunidad. Usuarios de cualquier lugar podian recomendar Zelerius a cambio de una pequeña recomensa en monedas de Zelerius. Esto hizo crecer de manera exponencial el número de usuarios hasta fecha.",
-
-    "text309": "Q2 2019",
-    "text310": "Hard fork, se implementa el algoritmo propio CN-ZLS",
-    "text311": "La segunda gran actualización de la red fue lanzada. Con la idea de mejorar la descentralización, se creó un algoritmo de minado propio, llamado CN ZLS. El algoritmo propio de Zelerius fue incluido en los programas más importantes de mineria. Esto dio a conocer Zelerius a muchos nuevos mineros y ayudó a fortalecer la seguridad de la red todavía más.",
-
-    "text312": "Q3 2019",
-    "text313": "Programa de recomendación",
-    "text314": "Se inicia el programa de recomendación de usuarios con la idea de seguir atrayendo a nuevos usuarios a la red Zelerius. Usuarios recomiendan la red Zelerius obteniendo una recomepensa en monedas ZLS.",
-
-    "text315": "Q4 2019",
-    "text316": "Zelerius-Exchanges. Segunda etapa",
-    "text317": "Zelerius es publicado en más webs de intercambio de criptomonedas, facilitando todavía más el intercambio con otras criptomonedas, en algunos casos gracias a al apoyo de numerosos usuarios.",
-
-    "text318": "Q1 2020",
-    "text319": "Nueva Walelt de Escritorio",
-    "text320": "Una nueva versión de la cartera para PC y Mac será publicada. Solucionará pequeños errores notificados por usuarios e incluirá numerosas mejoras que haran todavía más fácil el uso de la red Zelerius.",
-
-    "text321": "Q1 2020",
-    "text322": "Airdrop.",
-    "text323": "Se iniciará una nueva campaña de captación de usuarios. Zelerius es cada vez más grande y queremos que siga creciendo.",
-
-    "text324": "Q2 2020",
-    "text325": "Propio Exchange en desarrollo",
-    "text326": "Se publicará la primera version de la web de intercambio Zelerius, en la cual Zelerius jugará un papel muy importante. Facilitando todavía más el intercambio con otras criptomonedas.",
-
-    "text327": "Q3 2020",
-    "text328": "Cartera para Android",
-    "text329": "La primera versión de la cartera Zelerius para Android se publicará. Una cartera privada y segura para realizar y recibir pagos al intante de monedas de Zelerius.",
-
-    "text330": "SIN FECHA DE LANZAMIENTO TODAVÍA",
-    "text331": "Contratos inteligentes",
-    "text332": "Queremos que Zelerius sea más que una cryptomoneda, por ello empezaremos el desarrolo de contratos inteligentes bajo la red Zelerius manteniendo la facilidad de uso. Cualquier debe poder utilizar Zelerius de forma fácil y rápida.",
-
-    "text333": "SIN FECHA DE LANZAMIENTO TODAVÍA",
-    "text334": "ZeleriusPay",
-    "text335": "A largo plazo, queremos construir una red para la vida real, queremos que Zelerius se utilice para realizar compras desde cualquier lugar. Sin lugar a dudas este es un objetivo muy ambicioso.",
-
+    
     "whitepaper": "href='https://docs.google.com/document/d/1a5kER6NCuZNjXfKZxJNasHcGwmtDWhhcyJog97k6838/edit?usp=sharing' target='_blank'"
 }
